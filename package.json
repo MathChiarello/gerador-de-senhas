@@ -4,9 +4,21 @@
   "description": "Gerador de Senhas Forte utilizando nanoid",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --open",
+    "lint": "eslint ./src",
+    "test": "echo ainda nao temos testes para executar"
   },
   "keywords": [],
   "author": "Matheus Chiarello",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.4",
+    "clipboard-copy": "^4.0.1",
+    "nanoid": "^4.0.2",
+    "vite": "^4.4.9"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.48.0"
+  }
 }
